@@ -200,7 +200,6 @@ li {
         div{
             width: 260px;
             figure{
-                /* margin: 5% 30%; */
                 display: flex;
                 justify-content: center;
                 flex-wrap: wrap;
@@ -211,7 +210,6 @@ li {
                     font: 600 24px 'IBM Plex Sans', sans-serif;
                     color: #060A24;
                     letter-spacing: 0;
-                    /* margin: 29px 15.38% 0 15.38%; */
                     margin-top: 29px;
                     text-align: center;
                 }
@@ -500,9 +498,6 @@ footer{
             }
             div:nth-child(4){
                 margin-bottom: 42px;
-                figcaption{
-                    /* margin: 0; */
-                }
             }
         }
     }

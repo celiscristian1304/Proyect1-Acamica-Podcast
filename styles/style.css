@@ -275,7 +275,6 @@ li a:active {
 }
 
 #Topics .topicSymbols div figure {
-  /* margin: 5% 30%; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -294,7 +293,6 @@ li a:active {
   font: 600 24px 'IBM Plex Sans', sans-serif;
   color: #060A24;
   letter-spacing: 0;
-  /* margin: 29px 15.38% 0 15.38%; */
   margin-top: 29px;
   text-align: center;
 }
@@ -613,9 +611,6 @@ footer .icons a span:hover {
   }
   #Topics .topicSymbols div:nth-child(4) {
     margin-bottom: 42px;
-  }
-  #Topics .topicSymbols div:nth-child(4) figcaption {
-    /* margin: 0; */
   }
   .Novelities {
     height: 341px;
