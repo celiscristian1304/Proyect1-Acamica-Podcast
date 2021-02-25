@@ -127,6 +127,8 @@ li {
     iframe{
         width: 584px;
         height: 232px;
+        border: 0;
+        background-color: transparent;
     }
 }
 #Us{
@@ -198,19 +200,21 @@ li {
         div{
             width: 260px;
             figure{
-                margin: 5% 30%;
+                /* margin: 5% 30%; */
                 display: flex;
                 justify-content: center;
+                flex-wrap: wrap;
                 img{
                     max-width: 100%;
                 }
-            }
-            figcaption{
-                font: 600 24px 'IBM Plex Sans', sans-serif;
-                color: #060A24;
-                letter-spacing: 0;
-                margin: 29px 15.38% 0 15.38%;
-                text-align: center;
+                figcaption{
+                    font: 600 24px 'IBM Plex Sans', sans-serif;
+                    color: #060A24;
+                    letter-spacing: 0;
+                    /* margin: 29px 15.38% 0 15.38%; */
+                    margin-top: 29px;
+                    text-align: center;
+                }
             }
         }
     }
@@ -479,9 +483,13 @@ footer{
             overflow-y: hidden;
         }
         .topicSymbols{
+            margin-bottom: 0;
             div{
-                figcaption{
-                    margin-top: 0;
+                figure{
+                    margin: 13px 0 0 0;
+                    figcaption{
+                        margin-top: 13px;
+                    }
                 }
             }
             div:nth-child(1){
@@ -493,7 +501,7 @@ footer{
             div:nth-child(4){
                 margin-bottom: 42px;
                 figcaption{
-                    margin: 0;
+                    /* margin: 0; */
                 }
             }
         }
